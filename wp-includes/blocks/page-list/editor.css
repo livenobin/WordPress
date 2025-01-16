@@ -9,6 +9,10 @@
   flex:inherit;
 }
 
+.wp-block-navigation .wp-block-navigation__submenu-container>.wp-block-page-list{
+  display:block;
+}
+
 .wp-block-pages-list__item__link{
   pointer-events:none;
 }
@@ -33,6 +37,6 @@
   width:auto;
 }
 
-.wp-block-page-list .components-notice{
-  margin-left:0;
+.wp-block-page-list__loading-indicator-container{
+  padding:8px 12px;
 }

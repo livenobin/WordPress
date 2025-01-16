@@ -5,6 +5,12 @@
   border-collapse:collapse;
   width:100%;
 }
+.wp-block-table thead{
+  border-bottom:3px solid;
+}
+.wp-block-table tfoot{
+  border-top:3px solid;
+}
 .wp-block-table td,.wp-block-table th{
   border:1px solid;
   padding:.5em;
@@ -57,7 +63,7 @@
   background-color:#fcf0ef;
 }
 .wp-block-table.is-style-stripes td,.wp-block-table.is-style-stripes th{
-  border-color:transparent;
+  border-color:#0000;
 }
 .wp-block-table .has-border-color td,.wp-block-table .has-border-color th,.wp-block-table .has-border-color tr,.wp-block-table .has-border-color>*{
   border-color:inherit;
